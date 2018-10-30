@@ -1,6 +1,6 @@
 # prereqs: iterators, hashes, conditional logic
 # Given a hash with numeric values, return the key for the smallest value
-require "pry"
+
 def key_for_min_value(name_hash)
   min_key = ""
   min_value = ""
@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
       if min_value == "" || value < min_value
         min_value = value
         min_key = name
-        binding.pry
+
 
     end
   end
